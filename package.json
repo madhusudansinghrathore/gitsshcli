@@ -1,0 +1,30 @@
+{
+    "name": "gitsshcli",
+    "version": "1.0.0",
+    "description": "A cross-platform CLI tool for managing Git configurations and SSH keys across multiple project directories",
+    "main": "src/index.js",
+    "bin": {
+        "gitssh": "./bin/gitssh.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "git",
+        "ssh",
+        "cli",
+        "config",
+        "multi-account",
+        "github"
+    ],
+    "author": "",
+    "license": "MIT",
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "commander": "^11.1.0",
+        "inquirer": "^8.2.6"
+    }
+}
